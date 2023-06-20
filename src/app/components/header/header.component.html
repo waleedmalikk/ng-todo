@@ -1,0 +1,6 @@
+<header class="header">
+    <h1>
+        {{title}}
+    </h1>
+    <app-btn *ngIf="homeCheck" [bgColor]= "closeCheck ? 'red': 'green' " [text]="closeCheck? 'Close' : 'Add' " (closeClicked)="closed()"></app-btn>
+</header>

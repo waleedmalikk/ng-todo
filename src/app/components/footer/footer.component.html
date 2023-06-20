@@ -1,0 +1,11 @@
+<div class="footer">
+    <div class="copyright">
+        Copyright &copy; 2021
+    </div>
+    <div>
+        <a *ngIf="homeCheck; else elseBlock" routerLink="about">About</a>
+        <ng-template #elseBlock> 
+            <a routerLink="home">Home</a>
+        </ng-template>
+    </div>
+</div>

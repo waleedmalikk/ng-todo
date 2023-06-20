@@ -1,0 +1,10 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem;
+}
+
+.app{
+    padding-bottom: 0.5rem;
+}

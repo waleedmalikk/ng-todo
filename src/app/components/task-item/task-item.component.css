@@ -1,0 +1,29 @@
+.task-container{
+    background-color: rgb(230, 230, 230);
+    padding: 1rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.title-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.task-title{
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.crossIcon{
+    color: red;
+}
+
+.crossIcon:hover{
+    cursor: pointer;
+}
