@@ -1,4 +1,4 @@
-<div class="task-container">
+<div class="task-container"  [ngClass]="{'reminder': task.reminder}" (click)="reminderToggle(task)">
     <div class="title-desc">
         <div class="task-title">
             {{task.title}}

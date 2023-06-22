@@ -21,4 +21,11 @@ export class TaskItemComponent {
     })
   }
   
+  reminderToggle(task: any){
+    const newTask= {...task};
+    newTask.reminder = !newTask.reminder;
+    this.dataService.editReminder(newTask.uuid, newTask).subscribe((res)=>{
+      window.location.reload();
+    });
+  }
 }

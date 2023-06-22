@@ -9,6 +9,10 @@
     font-size: 15px;
 }
 
+.task-container:hover{
+    cursor:pointer;
+}
+
 .title-desc{
     display: flex;
     flex-direction: column;
@@ -26,4 +30,8 @@
 
 .crossIcon:hover{
     cursor: pointer;
+}
+
+.reminder{
+    border-left: green 6px solid;
 }
